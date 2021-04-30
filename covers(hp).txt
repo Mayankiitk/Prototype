@@ -27,6 +27,12 @@ padding: 10px
 div{
 font-size: 24px;
 }
+.heading1
+{
+margin: auto;
+width: 450px;
+background-color: #809fff;
+}
 </style>
 </head>
 <body background="images\wallp2.jpg" onload="f1()">
