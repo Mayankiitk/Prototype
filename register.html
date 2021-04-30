@@ -1,0 +1,122 @@
+<html>
+<head><title>REGISTER</title>
+</head>
+<script type="text/javascript">
+function thank()
+{
+if (f1.textbox1.value=="" || f1.textbox2.value=="" || f1.date1.value=="" || f1.pass1.value=="" || f1.pass2.value=="" || f1.txt.value=="")
+{
+alert("PLEASE FILL ALL THE DETAILS!!");
+}
+else
+{
+x=prompt("DO YOU WANT TO PROCEED "+f1.textbox1.value+" (YES OR NO)");
+if (x=="yes" || x=="YES" || x=="Yes" || x=="yEs" || x=="yeS" || x=="YEs" || x=="YeS" || x=="yES")
+{
+alert("Thank You For Submitting");
+}
+else if (x=="no" || x=="NO" || x=="No" || x=="nO")
+{
+alert("OK FINE!!");
+}
+else
+{
+alert("YOU SHOULD HAVE ENTERED SOMETHING INVALID!!");
+}
+}
+}
+function checkpass()
+{
+if (f1.pass1.value=="")
+{
+confirm("PLEASE ENTER THE PASSWORD FIELD FIRST");
+}
+}
+function confpass()
+{
+if (f1.pass1.value!=f1.pass2.value)
+{
+confirm("PLEASE ENTER THE SAME PASSWORD IN THE CONFIRM PASSWORD FIELD");
+}
+}
+</script>
+<style>
+.bodd
+{
+   margin:auto;
+   text-align:center;
+   font-size: 25px;
+   color: #ffff00;
+}
+.links
+{
+   background-color: #a3c2c2;
+   text-align: center;
+   color: white;
+   font-size: 30px;
+}
+.button
+{
+   background-color: black;
+   width: 195px;
+   margin: auto;
+}
+a:link
+{
+   color:white;
+   text-decoration: none;
+}
+form
+{
+   font-size:20px;
+   color: #ffff33;
+}
+</style>
+<body background="images\wallp7.jpg">
+<div align="center" class="bodd">
+<div class="links">
+&nbsp&nbsp&nbsp&nbsp||&nbsp&nbsp&nbsp&nbsp
+<a href="HOMEPAGE.html" vlink="white" target="_blank"><b>HOMEPAGE<b></a>
+&nbsp&nbsp&nbsp&nbsp||&nbsp&nbsp&nbsp&nbsp
+<a href="contact(main).html" vlink="white" target="_blank"><b>CONTACT US<b></a>
+&nbsp&nbsp&nbsp&nbsp||&nbsp&nbsp&nbsp&nbsp
+<a href="gallery(main).html" vlink="white" target="_blank"><b>GALLERY<b></a>
+&nbsp&nbsp&nbsp&nbsp||&nbsp&nbsp&nbsp&nbsp
+</div>
+<br>
+<br>
+<b>
+PLEASE ENTER YOUR DETAILS AND PRESS SUBMIT. <u>ALL FIELDS ARE REQUIRED</u>!!
+</b>
+<br>
+<br>
+<hr size="5px" width="1000" color="#ffffcc">
+<br>
+<form name="f1">
+<b>
+<pre>
+   NAME:                     <input type="text" name="textbox1" maxlength="20"></input>
+
+DATE OF BIRTH:            <input type="date" name="date1" size="30"></input>
+
+   EMAIL ID:                 <input type="text" name="textbox2" maxlength="30"></input>
+
+   PASSWORD:                 <input type="password" name="pass1" maxlength="20"></input>
+
+   CONFIRM PASSWORD:         <input type="password" name="pass2" maxlength="20" onclick="checkpass()" oninput="checkpass()"></input>
+
+  PREFERRED PAYMENT MODE:    <select name="selec" onclick="confpass()" oninput="confpass()"><option value="nb">NET BANKING</option><option value="cod">CASH ON DELIVERY</option><option value="wal">E-WALLETS</option></select>
+
+   ADDRESS:                  <textarea name="txt" rows="1" cols="22" onclick="confpass()" oninput="confpass()"></textarea>
+</pre>
+</b>
+<br>
+<br>
+<div class="button">
+<input type="reset">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" onclick="thank()">
+</div>
+</form>
+<hr size="5px" width="1000" color="#ffffcc">
+</div>
+</body>
+</html>

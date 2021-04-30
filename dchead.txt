@@ -1,0 +1,20 @@
+<html>
+<head>
+<style>
+.heading1
+{
+margin: auto;
+width: 450px;
+background-color: #809fff;
+}
+</style>
+</head>
+<body onload="f1()"  background="images\1.jpg">
+<br>
+<hr size="10"  color="#ffff4d">
+<div class="heading1">
+<b><font size="24" color="white">DC MERCHANDISE</font>
+</div></b>
+<hr size="10"  color="#ffff4d">
+</body>
+</html

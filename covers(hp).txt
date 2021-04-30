@@ -1,0 +1,62 @@
+<html>
+<head><title>covers</title>
+<script type="text/javascript">
+function f1()
+{window.alert("WELCOME TO THE SITE");
+}
+</script>
+<style>
+.links
+{
+   background-color: #a3c2c2;
+   text-align: center;
+   color: white;
+}
+a:link
+{
+   color:white;
+   text-decoration: none;
+}
+table, th, td 
+{
+  border: 1px;
+}
+th,td{
+padding: 10px
+}
+div{
+font-size: 24px;
+}
+</style>
+</head>
+<body background="images\wallp2.jpg" onload="f1()">
+<div class="links">
+&nbsp&nbsp&nbsp&nbsp||&nbsp&nbsp&nbsp&nbsp
+<a href="register(main).html" vlink="white" target="_blank"><b>REGISTER HERE<b></a>
+&nbsp&nbsp&nbsp&nbsp||&nbsp&nbsp&nbsp&nbsp
+<a href="contact(main).html" vlink="white" target="_blank"><b>CONTACT US<b></a>
+&nbsp&nbsp&nbsp&nbsp||&nbsp&nbsp&nbsp&nbsp
+<a href="gallery(main).html" vlink="white" target="_blank"><b>GALLERY<b></a>
+&nbsp&nbsp&nbsp&nbsp||&nbsp&nbsp&nbsp&nbsp
+</div>
+<br>
+<br>
+<div align="center">
+<font color="white">
+<u><b>PHONE COVERS</u></b></font>
+<br><font color="white" size="6"><code>AMAZING PHONE BACK COVERS POWERED BY YOUR FAVOURITE SUPERHEROES!!</code></font>
+<br>
+<p>
+<div align="left">
+<font color="#d9d9d9" size="4"><code><b>CHECK OUT THE COOLEST SMARTPHONE COVERS HERE-------></b></code></font>
+</div>
+<table border="2">
+<tr><td><a href="gallery(main).html" target="_blank"><img src="images\covers1.jpg" style="width:250px;height:300px;"></img></a></td>
+<td><a href="gallery(main).html" target="_blank"><img src="images\covers2.jpg" style="width:250px;height:300px;"></img></a></td></tr>
+<tr><td><a href="gallery(main).html" target="_blank"><img src="images\covers3.jpg" style="width:250px;height:300px;"></img></a></td>
+<td><a href="gallery(main).html" target="_blank"><img src="images\covers4.png" style="width:250px;height:300px;"></img></a></td></tr>
+</table>
+<font size="4" color="white" style="background-color: #8c8c8c;">CLICK ON ANY ONE OF THE COVERS</font>
+</div>
+</body>
+</html>
